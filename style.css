@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+}
+
+.form{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    border-style: solid;
+    border-width: 10px 10px;
+    border-color: rgb(216, 213, 214);
+    background-color: rgba(229, 235, 235, 0.63);
+    width: 700px;
+    margin-top: 1em;   
+    margin-left: 25rem;
+}
+
+.head{
+    font-size: 1.5rem ;
+    padding: 20px;
+}
+
+.focus{    
+    width: 600px;
+    height: 60px;
+    padding-top: 10px;
+}
+
+.focus:hover{
+    border: solid 1.5px rgba(100, 100, 240, 0.637);
+    background-color: rgba(42, 200, 248, 0.137);    
+}
+
+.price{
+    font-size:2rem ;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.priceNum{
+    margin-left: 200px;
+}
+
+.middle{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    padding: 20px 0px;
+    border-style: solid;
+    border-width: 3px 0px;
+    border-color: rgb(216, 213, 214);
+}
+
+.footer{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 1rem;
+    flex-direction: column;    
+}
+
+.how{
+    width: 50px;
+    cursor: pointer;
+}
+
+.how:focus {
+    border: 2.5px solid rgb(107, 0, 0);
+}
+
+input[type=radio] {
+    width: 2rem;
+    height: 2em;
+    border-style: solid;
+    border-color: aquamarine;
+    border-width: 10px;
+    border: 10px;
+    cursor: pointer;
+}
+
+.blue{
+    color:rgb(0, 134, 139);
+}
+
+.footer.top{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 1.5rem;
+    flex-direction: column;    
+}
+
+.howResult{
+    margin-bottom: 10px;
+    align-items: center;
+    font-size: 2rem;
+    flex-direction: column;
+}
+
+.btn{
+    border-radius: 30px;
+    background-color: rgb(24, 199, 24);
+    width: 10rem;
+    height: 2.5rem;
+    border: none;
+    color: aliceblue;
+    cursor: pointer;
+}.btn:hover{
+    background-color: rgb(21, 177, 21);
+    color: rgb(255, 255, 255);
+}
+
+.chekedResult{
+    margin-bottom: 30px;
+    margin-top: 40px;
+    color:rgb(0, 134, 139);
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEST</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>   
+    <form class="form">
+        <div class="head">
+            <div class="focus">
+                <input type="radio" name="plans" 
+                class="plan_1" value="#1">
+                <label class="price">LICENCE PLAN #1</label>
+                <label class="plan_1Price priceNum">13</label><label>$ per licence</label>
+            </div>
+            <br>
+            <br>
+            <div class="focus">
+                <input type="radio" name="plans"
+                class="plan_2" value="#2">
+                <label class="price" >LICENCE PLAN #2</label>
+                <label class="plan_2Price priceNum">22</label><label>$ per licence</label>
+            </div>
+            <br>
+            <br>
+            <div class="focus"> 
+                <input type="radio" name="plans"
+                class="plan_3" value="#3">
+                <label class="price">LICENCE PLAN #3</label>
+                <label class="plan_3Price priceNum">34</label><label>$ per licence</label>
+            </div>
+        </div>
+        <div class="middle">
+            <p>Number of licence:</p>
+            <input type="number" class="how">
+        </div>
+        <div class="footer">
+            <div  class="footer.top">
+                <p class="price">TOTAL:<label class="howResult"></label></p>               
+                <button class="btn" >BUY NOW</button>               
+            </div>
+            <p class="chekedResult">Selected plans:</p>
+        </div>       
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
